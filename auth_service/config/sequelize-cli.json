@@ -1,0 +1,19 @@
+{
+  "development": {
+    "username": "neondb_owner",
+    "password": "npg_W0Zn5YbljIUB",
+    "database": "neondb",
+    "host": "ep-super-truth-ah5bhvbe-pooler.c-3.us-east-1.aws.neon.tech",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  }
+}
